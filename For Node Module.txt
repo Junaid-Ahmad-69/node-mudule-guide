@@ -1,0 +1,40 @@
+	Bootstrap Setup Via Node Modules NPM
+
+1)  First Make A Folder Named It.(Project Name).
+2)  Open Git Bash in project Folder.
+3)  Type git init (Press Enter).
+4)  Type mkdir bootstrap (Press Enter)
+5)  Type cd bootstrap (Press Enter)
+6)  Type code . (Press Enter to open vs code)
+7)  Type npm init (Press Enter)
+8)  Type in front of::  package : (bootstrap) bootstrap_install (Press Enter).
+9)  Type in front of :: descritption : bootstrap with npm (Press Enter).
+10) Type in front of :: auther :  your name (Press Enter)
+11) Is This Ok? (Yes) (Press Enter)
+12) Type npm install bootstrap --save
+13) Now, Boostrap Process is completed close the Git Bash Panel.
+
+	Sass Setup Via Node Modules NPM
+
+14) Open CMD command on Same Project Folder.
+15) Type npm i -g sass (Press Enter)
+16) Type npm i -g node-sass (Press Enter)
+17) Paste the below code in Visual code --> Package.json in Script Section below "test",
+        "sass-dev": "sass --watch --update --style=expanded scss:css",
+    	"sass-prod": "sass --no-source-map --style=compressed scss:css" 
+18) Now, Open Again Cmd and Type npm run sass-dev (Press Enter).
+19) Type npm run sass-prod (Press enter)
+20) Close the CMD and Again Open The CMD to Check Sass is working.
+21) Type sass --watch sass:css
+
+	How to Connect Sass stylesheet Link On Main Index File
+   
+22) <link rel="stylesheet" href="/css/theme.css">
+23) Your Stylesheet name will be theme.scss 
+24)  Sasss Folder Name sass (Required).
+
+	How to Get Bootstrap Link on Main Index File
+
+25) Import the bootstrap on theme.sass (like given below)
+    @import "../node_modules/bootstrap/scss/bootstrap"; (Required)
+  
