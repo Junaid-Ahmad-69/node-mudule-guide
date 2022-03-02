@@ -22,15 +22,15 @@
 17) Paste the below code in Visual code --> Package.json in Script Section below "test",
         "sass-dev": "sass --watch --update --style=expanded scss:css",
     	"sass-prod": "sass --no-source-map --style=compressed scss:css" 
-18) Now, Open Again Cmd and Type npm run sass-dev (Press Enter).
-19) Type npm run sass-prod (Press enter)
+18) Now, Open Again Cmd and Type npm run sass-prod (Press Enter).
+19) Type npm run sass-dev (Press enter)
 20) Close the CMD and Again Open The CMD to Check Sass is working.
 21) Type sass --watch sass:css
 
 	How to Connect Sass stylesheet Link On Main Index File
    
 22) <link rel="stylesheet" href="/css/theme.css">
-23) Your Stylesheet name will be theme.scss 
+23) Your Stylesheet name will be style.scss 
 24)  Sasss Folder Name sass (Required).
 
 	How to Get Bootstrap Link on Main Index File
