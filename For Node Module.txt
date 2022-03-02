@@ -29,7 +29,7 @@
 
 	How to Connect Sass stylesheet Link On Main Index File
    
-22) <link rel="stylesheet" href="/css/theme.css">
+22) <link rel="stylesheet" href="/css/style.css">
 23) Your Stylesheet name will be style.scss 
 24)  Sasss Folder Name sass (Required).
 
